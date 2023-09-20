@@ -1,8 +1,7 @@
 body {
     font-family: Quicksand, sans-serif;
     text-align: center;
-    min-width: fit-content;
-    width: 100%;
+    min-width: 500px;
 }
 
 
