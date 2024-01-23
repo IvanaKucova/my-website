@@ -3,63 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Ivana Kucova</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Quicksand&family=Raleway:wght@200&display=swap" rel="stylesheet">
+
 </head>
 <body>
-<h1>Ivana Kucova CV</h1>
-<img src = "./photo.png" height =150 alt = "photo of Ivana Kucova"/>
-<h2>Summary</h2>
-    <p>I am a purposeful and self-critical person
-        with analytical mind who is passionate
-        about work and new tasks.</p>
-<h3>Education</h3>
+<div class="container" id = "top-container">
 
-<ul>
-<li>Grammar school
-    Hranice, Czech Republic</li>
-</ul>
+        <div id = "heading">
+            <h1>I am Ivana.</h1>
+            <h2 class = "subheading">a junior programmer.</h2>
+        </div>
+</div>
 
-<h3>Work experience</h3>
-<ol>
-    <li>Buyer, Foxconn CZ s.r.o., 01/2022 - Currently</li>
-    <li>Junior Category manager, Biooo.cz, 06/2021 - 12/2021</li>
-    <li>Business assistent, Biooo.cz, 07/2020 - 05/2021 </li>
-    <li>Reservation agent, Axxos hotels and resorts, 10/2019 - 05/2020</li>
-    <li>Receptionist, Grandezza hotels, 10/2018 - 10/2019</li>
+<div class="container" id = "middle-container">
+    <div class  = "profile">
+        <img class = "profile-photo" src="./profile-photo.jpg" alt = "profile photo"/>
+        <h2>Hello.</h2>
+
+        <p class = "introduction">I am a junior front-end Javascript developer. You can find an information about my education and work experience <a href="../Online Resume/index.html">HERE</a></p>
+    </div>
 
 
-</ol>
-<h3>Language skills</h3>
-<ul>
-    <li>English - Upper intermediate (B2)</li>
-    <li>German - Upper intermediate (B2)</li>
-    <li>Czech - Profciency (C2)</li>
 
-</ul>
- <h3>Skills</h3>
- <ul>
-    <li>Excel - intermediate</li>
-    <li>Python - basic</li>
-    <li>Gimp - advanced</li>
-    <li>Asana - advanced</li>
-    <li>Gmail - advanced</li>
-    <li>html - basic</li>
-    <li>CSS - basic</li>
-    <li>Javascript - basic</li>
-
- </ul>
- <h3>Certification</h3>
- <ul>
-    <li>Úvod do programování 1: Python - Czechitas</li>
-    <li>Úvod do programování 2: Python - Czechitas</li>
-    <li>Learn Javascript - Codeacademy</li>
-    <li>Learn HTML - Codeacademy</li>
-    <li>Learn CSS - Codeacademy</li>
- </ul>
-<h3>Hobbies</h3>
-<p>In my free time I enjoy listening to music, you can listen to my current favourite song <a href = "https://www.youtube.com/watch?v=ycUEiBFGhS0">here</a></p>
+    <div class = "container" id = "my-skills">
+        <h2>My Skills</h2>
+            <div class = "skills-section">
+                <div class = "programming">
+                    <img src = "./programming.jpg" alt = "programming" height="200px"/>
+                </div>
+                <div class = "skills-text">
+                <h3> Programming</h3>
+                
+                <p>I am learning how to code since the beginning of 2022, started with Python courses by Czechitas, then I took Python course on codeacademy.com. After all I realized that I would enjoy Web development much more so started to learn CSS, html and Javascript by courses on codeacademy.com, now taking Web development course by Udemy.com.</p>
+                </div>
+                <div class = "gardening">
+                    <img src = "./gardening.jpg" alt = "gardening" height="200px"/>
+                </div>
+                <div class = "skills-text">
+                <h3> Gardening</h3>
+                
+                <p>Besides programming I am trying to learn how to grow my own vegetable and take care of garden. I find it relaxing and it is a balanced hobby to sitting all day in front of a computer. </p>
+                </div>
+            </div>
+    </div>
 
 
-<footer>© 2023 Ivana Kucova</footer>
+
+
+    <div class = "container" id = "contact">
+        <h2>Contact me</h2>
+        <p>e-mail address: <span style ="color: #33BBC5">i.kucova@seznam.cz</span></p>
+    </div>
+    </div>
+
+</div>
+
+
+<div class = "container" id = "bottom-container">
+
+        <a class = "links" href = "https://cz.linkedin.com/in/ivana-ku%C4%8Dov%C3%A1-0b5b7b221">LinkedIn</a>
+        <a class = "links" href = "http://127.0.0.1:3000/Online%20Resume/index.html">CV</a>
+    
+        <p style = "color:#C8FFE0">© Ivana Kucova</p>
+
+
+
+
+</div>
+
 </body>
 </html>
+
+
+
