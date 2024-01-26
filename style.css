@@ -9,7 +9,6 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 30px;
 
 }
 
@@ -22,6 +21,7 @@ body {
     width: 100%;
     background: rgb(17,138,126);
     background: radial-gradient(circle, rgba(17,138,126,0.8071603641456583) 54%, rgba(31,111,120,1) 100%);
+    margin: 30px;
 }
 
 
@@ -56,6 +56,7 @@ p {
 .profile_container {
     margin-bottom: 50px;
     width: 400px;
+    margin: 30px;
 }
 
 .my-skills {
@@ -63,6 +64,7 @@ p {
     flex-direction: row;
     align-items: center;
     width: 500px;
+    margin: 30px;
 }
 
 .skills h2 {
@@ -83,7 +85,9 @@ p {
     display: flex;
     flex-direction: row;
     width: 500px;
+    margin: 30px;
     margin-bottom: 50px;
+
 }
 
 .languages h2 {
@@ -109,6 +113,7 @@ p {
     flex-direction: column;
     text-align: left;
     width: 500px;
+    margin: 30px;
 }
 
 .work li {
@@ -120,6 +125,7 @@ p {
     flex-direction: row;
     align-items: center;
     width: 500px;
+    margin: 30px;
     margin-bottom: 50px;
 }
 
@@ -139,6 +145,7 @@ p {
     display: flex;
     flex-direction: row;
     width: 500px;
+    margin: 30px;
     margin-bottom: 50px;
 }
 
@@ -165,6 +172,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 30px;
     margin-bottom: 50px;
 
 }
@@ -174,7 +182,6 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
     background: rgb(17,138,126);
     background: radial-gradient(circle, rgba(17,138,126,0.8071603641456583) 54%, rgba(31,111,120,1) 100%);
 }
