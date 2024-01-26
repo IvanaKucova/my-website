@@ -145,7 +145,7 @@ p {
 .courses {
     display: flex;
     flex-direction: row;
-    width: 700px;
+    width: 500px;
     margin-bottom: 50px;
 }
 
