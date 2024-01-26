@@ -9,8 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 20px;
-    padding: 20px;
+    margin: 30px;
 
 }
 
@@ -47,9 +46,7 @@ p {
     font-size: 1rem;
 }
 
-.profile_container {
 
-}
 .profile-photo {
     height: 150px;
     border-radius: 50%;
@@ -72,8 +69,6 @@ p {
     margin-top: 150px;
 
 }
-
-
 
 .skills-ul {
     margin-top: 70px;
@@ -108,9 +103,12 @@ p {
 .work h2 {
     text-align: center;
 }
+
 .work {
+    display: flex;
+    flex-direction: column;
     text-align: left;
-    width: 550px;
+    width: 500px;
 }
 
 .work li {
