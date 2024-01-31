@@ -155,7 +155,9 @@ p {
 
 .reference h2 {
     text-align: center;
-
+    margin-top: 50px;
+    
+}
 .contact {
     margin: 50px;
 
